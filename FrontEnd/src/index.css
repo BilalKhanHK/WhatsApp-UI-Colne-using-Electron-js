@@ -1,0 +1,44 @@
+.listClass {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  /* color: black; */
+  /* font-weight: bolder; */
+  /* font-style: italic; */
+}
+.SideBarWidth {
+  width: 20vw;
+}
+.iconsAssembling {
+  display: flex;
+  gap: 10px;
+}
+.drawarLinksContainer li:hover {
+  background-color: rgb(223, 213, 213);
+}
+.drawarLinksContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.drawarLinksContainer li {
+  display: flex;
+  color: cyan;
+  gap: 20px;
+  font-weight: bold;
+  font-style: italic;
+  align-items: center;
+  background-color: rgb(168, 168, 175);
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.drawarlinksiconscolor {
+  color: rgb(241, 235, 235);
+}
+.ActiveLink {
+  border: 2px solid green;
+  background-color: rgb(13, 14, 14) !important;
+  color: white !important;
+}
